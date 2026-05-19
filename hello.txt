@@ -11,11 +11,13 @@ git config --global user.email "youremail@example.com"
 Các lệnh thường sử dụng:
 git init : khởi tạo Repository Local (.git)
 git add <tên_file>: đẩy các thay đổi từ work folder và vào staging area. (git add . : đẩy tất cả thay đổi vào stagin area)
-git commit -m "<nội_dung_commit>": đẩy các thay đổi từ staging area sang repo local và chụp lại 1 snapshot (đánh dấu phiên bản).
+git commit -m "<nội_dung_commit>": đẩy các thay đổi từ staging area sang repo local và chụp lại 1 snapshot (đánh dấu phiên bản - dấu mốc).
 Tạo Repo trên Github
 git remote ... : kết nối repo local với repo trên online trên github.
 git push ...: đẩy các thay đổi từ repo local lên repo online
 
+Note: lệnh git init và git add dùng 1 lần 1 tạo dự án.
+
 Work Folder(Dự án)  |  Staging area   | Repository Local (Kho luu trữ tren máy tính)  |    Repository Github (Kho lưu trữ trên github)
-     index.html
-     hello.txt
+                                                                                               index.html
+                                                                                               hello.txt
