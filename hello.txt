@@ -1,0 +1,12 @@
+Hello World, I'm Coding.
+
+Git: là 1 hệ thống quản lý phiên bản
+Repository (Kho lưu trữ): là nơi trữ mã nguồn, lịch sử thay đổi và các thông tin liên quan đến git.
+Staging area : là 1 vùng nhớ kiểm tra trước khi commit (đánh dấu phiên bản)
+
+Các lệnh thường sử dụng:
+git init : khởi tạo Repository Local (.git)
+git add <tên_file>: đẩy các thay đổi từ work folder và vào staging area.
+
+Work Folder(Dự án)  |  Staging area   | Repository Local (Kho luu trữ tren máy tính)     |    Repository Github (Kho lưu trữ trên github)
+  hello.txt
