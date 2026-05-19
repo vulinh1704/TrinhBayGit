@@ -4,9 +4,18 @@ Git: là 1 hệ thống quản lý phiên bản
 Repository (Kho lưu trữ): là nơi trữ mã nguồn, lịch sử thay đổi và các thông tin liên quan đến git.
 Staging area : là 1 vùng nhớ kiểm tra trước khi commit (đánh dấu phiên bản)
 
+Lệnh dùng 1 lần khi cài đặt git:
+git config --global user.name "Your Name"
+git config --global user.email "youremail@example.com"
+
 Các lệnh thường sử dụng:
 git init : khởi tạo Repository Local (.git)
-git add <tên_file>: đẩy các thay đổi từ work folder và vào staging area.
+git add <tên_file>: đẩy các thay đổi từ work folder và vào staging area. (git add . : đẩy tất cả thay đổi vào stagin area)
+git commit -m "<nội_dung_commit>": đẩy các thay đổi từ staging area sang repo local và chụp lại 1 snapshot (đánh dấu phiên bản).
+Tạo Repo trên Github
+git remote ... : kết nối repo local với repo trên online trên github.
+git push ...: đẩy các thay đổi từ repo local lên repo online
 
-Work Folder(Dự án)  |  Staging area   | Repository Local (Kho luu trữ tren máy tính)     |    Repository Github (Kho lưu trữ trên github)
-  hello.txt
+Work Folder(Dự án)  |  Staging area   | Repository Local (Kho luu trữ tren máy tính)  |    Repository Github (Kho lưu trữ trên github)
+     index.html
+     hello.txt
