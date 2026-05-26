@@ -1,6 +1,7 @@
 Hello World, I'm Coding.
 
-Git: là 1 hệ thống quản lý phiên bản
+What ?
+Git: là 1 hệ thống quản lý phiên bản của mã nguồn (code)
 Repository (Kho lưu trữ): là nơi trữ mã nguồn, lịch sử thay đổi và các thông tin liên quan đến git.
 Staging area : là 1 vùng nhớ kiểm tra trước khi commit (đánh dấu phiên bản)
 
@@ -17,5 +18,5 @@ git remote ... : kết nối repo local với repo trên online trên github.
 git push ...: đẩy các thay đổi từ repo local lên repo online
 
 Work Folder(Dự án)  |  Staging area   | Repository Local (Kho luu trữ tren máy tính)  |    Repository Github (Kho lưu trữ trên github)
-     index.html
-     hello.txt
+                                                                                                  index.html
+                                                                                                  hello.txt
